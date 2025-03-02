@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.8/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="">
+    <section class="mx-30 bg-blue-200">
+        <header>
+            <div class="flex justify-between ">
+                <div class="flex gap-2  mx-25">
+                    <img  class=" p-3" src="assets/logo.png" alt="">
+                    <h1 class=" text-3xl rounded p-3 mt-2">Dev<span class="font-bold">Board</span></h1>
+                </div>
+                <div>
+                    <button class="px-4 py-2 mt-3 mx-4 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
+                        Back to Desk
+                      </button>
+                </div>
+        </header>
+    </section>
+    <!-- next -->
+    <section class="mx-30 my-4">
+        <div class=" bg-gray-200">
+            <h1 class="text-3xl font-bold text-center my-5">Blogs</h1>
+           
+        </div>
+        <!-- 1 -->
+        <div>
+            <p class="bg-blue-50 text-xl font-bold my-5">Question-1: What are the different ways to select an element in the DOM?</p>
+            <p class="bg-gray-200">Selects a single element with a specific id attribute.
+                Returns an Element object or null if not found.</p>
+        </div>
+        <!-- 2 -->
+        <div>
+            <p class="bg-blue-50 text-xl font-bold my-5"> Question-2: What is the difference between innerHTML, innerText, and textContent ?</p>
+            <p class="bg-gray-200">innerhtml=Returns or sets the HTML content inside an element.Innertext=Returns or sets the visible text inside an element.Textcontent=Returns or sets all text content, including hidden elements</p>
+        </div>
+        <!-- 3 -->
+        <div>
+            <p class="bg-blue-50 text-xl font-bold my-5">Question-3:What is event delegation in the DOM?</p>
+            <p class="bg-gray-200">Event delegation is a technique in the DOM where a single event listener is added to a parent element instead of multiple event listeners on individual child elements. This is possible because of event bubbling, where events triggered on child elements propagate up to their ancestors.</p>
+        </div>
+        <!-- 4 -->
+        <div>
+            <p class="bg-blue-50 text-xl font-bold my-5">Question-4:What is event bubbling in the DOM? </p>
+            <p class="bg-gray-200">Event bubbling is a concept in the DOM (Document Object Model) event propagation mechanism, where an event that occurs on a child element first triggers the event handler on that element and then propagates (or "bubbles up") to its parent elements until it reaches the root (document)..</p>
+        </div>
+        <!-- 5 -->
+        <div>
+            <p class="bg-blue-50 text-xl font-bold my-5">Question-5:  How do you create, add, and remove elements using JavaScript?</p>
+            <p class="bg-gray-200">You can create a new HTML element using the document.createElement() method.You can add an element to the DOM using methods.You can remove elements using:
+
+                removeChild()</p>
+        </div>
+     </section>
+     <script src="script/java.js"></script>
+     
+</body>
+</html>
